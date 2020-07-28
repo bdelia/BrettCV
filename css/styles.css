@@ -1,7 +1,7 @@
 body {
-    background-color: #204051;
-    color: #e4e3e3;
     margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;;
 }
 
 div {
@@ -11,22 +11,45 @@ div {
 h1 {
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
 }
 
-.topBox {
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+     font-family: 'Montserrat', sans-serif;
+    }
+
+.top-container {
     background-color: violet;
     border-color: black;
+    position: relative;
+    padding-top: 100px;
 }
 
-.middleBox {
+.middle-container {
     background-color: rebeccapurple;
     border-color: black;
     height: 200px;
     width: 200px;
 }
 
-.bottomBox {
+.bottom-container {
     background-color: salmon;
     height: 200px;
     width: 200px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.topCloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }
