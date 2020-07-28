@@ -1,3 +1,32 @@
 body {
-    background-color: cyan;
+    background-color: #204051;
+    color: #e4e3e3;
+    margin: 0px;
+}
+
+div {
+    background-color: #84a9ac;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.topBox {
+    background-color: violet;
+    border-color: black;
+}
+
+.middleBox {
+    background-color: rebeccapurple;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+.bottomBox {
+    background-color: salmon;
+    height: 200px;
+    width: 200px;
 }
