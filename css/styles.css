@@ -1,45 +1,61 @@
 body {
+    background-color: #393e46;
     margin: 0px;
     text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #eeeeee;
 }
 
-div {
-    background-color: #84a9ac;
+p{
+    color: #c4fb6d;
 }
 
 h1 {
+    color: #76ead7;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 h2 {
+    color: #76ead7;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
+    color: #76ead7;
      font-family: 'Montserrat', sans-serif;
     }
 
+    /* A link that has not been visited */
+a:link {
+    color: pink;
+}
+/* A link that has been visited */
+a:visited {
+    color: blue;
+}
+/* A link that is hovered on */
+a:hover {
+    color: red;
+}
+/* A link that is selected */
+a:active {
+    color: green;
+}
+
 .top-container {
-    background-color: violet;
-    border-color: black;
+    background-color: #393e46;
     position: relative;
     padding-top: 100px;
 }
 
 .middle-container {
-    background-color: rebeccapurple;
-    border-color: black;
-    height: 200px;
-    width: 200px;
+
 }
 
 .bottom-container {
-    background-color: salmon;
-    height: 200px;
-    width: 200px;
+
 }
 
 .bottomCloud {
@@ -52,4 +68,14 @@ h3 {
     position: absolute;
     right: 300px;
     top: 50px;
+}
+
+.profilePicture {
+    height: 150px;
+    width: 150px;
+}
+
+.leadership {
+    height: 350px;
+    width: 350px;
 }
