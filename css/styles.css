@@ -6,43 +6,41 @@ body {
 }
 
 h1 {
-    color: #11999e;
+    color: #66BFBF;
     font-size:  5.625rem;
+    font-family: 'Sacramento', cursive;
     margin: 50 auto 0 auto;
     margin-bottom: 0;
-    font-family: 'Sacramento', cursive;
 }
 
 h2 {
-    color: #30e3ca;
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
 
 h3 {
-    color: #30e3ca;
+    color: #11999E;
      font-family: 'Montserrat', sans-serif;
     }
 
-    /* A link that has not been visited */
-a:link {
-    color: pink;
-}
-/* A link that has been visited */
-a:visited {
-    color: blue;
-}
-/* A link that is hovered on */
-a:hover {
-    color: red;
-}
-/* A link that is selected */
-a:active {
-    color: green;
+a {
+    color: #11999E;
+    padding: 25px;
 }
 
+hr {
+    border:none;
+    border-top:15px dotted #EAF6F6;
+    width:30%;
+  }
+
+  p {
+    color: #40514e;
+  }
+
 .top-container {
-    background-color: #E4F9F5;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
 }
@@ -52,7 +50,9 @@ a:active {
 }
 
 .bottom-container {
-
+    background-color: #66BFBF;
+    margin-top: 75px;
+    padding: 50px
 }
 
 .topCloud {
@@ -72,7 +72,64 @@ a:active {
     width: 150px;
 }
 
+.clearLeft {
+    clear: left;
+}
+
+.clearRight {
+    clear: right;
+}
+
 .leadership {
-    height: 350px;
-    width: 350px;
+    float: left;
+    margin-right: 30px;
+    width: 50%;
+}
+
+.softwareEngineering {
+    float: right;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+    width: 50%;
+}
+
+.whoAmI {
+    font-weight: normal;
+}
+
+.button_contactMe {
+    margin-top: 30px;;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0px;
+    line-height: 0px;
+    color: #E4F9F5;
+    font-family: Open Sans;
+    width: 219px;
+    font-size: 29px;
+    font-weight: 100;
+    padding: 24px;
+    background-color: #11999E;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #30E3CA 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    }
+    
+    .button_contactMe:hover {
+    background: #11999E;
+    border: solid #30E3CA 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
