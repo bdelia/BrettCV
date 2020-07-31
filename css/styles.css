@@ -94,6 +94,10 @@ hr {
     width: 50%;
 }
 
+.leadershipText {
+    padding-top: 5em;
+}
+
 .softwareEngineering {
     float: right;
     margin-left: 30px;
