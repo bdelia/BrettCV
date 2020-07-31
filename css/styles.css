@@ -17,26 +17,34 @@ h2 {
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    padding-bottom: 10px;
 }
 
 h3 {
     color: #11999E;
-     font-family: 'Montserrat', sans-serif;
-    }
+    font-family: 'Montserrat', sans-serif;
+}
 
 a {
     color: #11999E;
-    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px ;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6
 }
 
 hr {
-    border:none;
-    border-top:15px dotted #EAF6F6;
-    width:30%;
+    border-bottom: none;
+    border-top: 15px dotted #EAF6F6;
+    margin: 100px auto;
+    width: 30%;
   }
 
   p {
-    color: #40514e;
+    line-height: 2;
   }
 
 .top-container {
@@ -46,24 +54,24 @@ hr {
 }
 
 .middle-container {
-
+    margin: 100px 0;
 }
 
 .bottom-container {
     background-color: #66BFBF;
     margin-top: 75px;
-    padding: 50px
+    padding: 50px 0 20px;
 }
 
 .topCloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .bottomCloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
@@ -104,21 +112,24 @@ hr {
 }
 
 .button_contactMe {
-    margin-top: 30px;;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     height: 0px;
     line-height: 0px;
     color: #E4F9F5;
-    font-family: Open Sans;
-    width: 219px;
-    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    font-size: 20px;
     font-weight: 100;
     padding: 24px;
-    background-color: #11999E;
     text-shadow: 1px 1px 20px #000000;
-    border: solid #30E3CA 1px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
@@ -126,10 +137,31 @@ hr {
     }
     
     .button_contactMe:hover {
-    background: #11999E;
-    border: solid #30E3CA 1px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    border: solid #30E3CA 0px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     text-decoration: none;
+    }
+
+.copyright {
+    color: #eaf6f6;
+    font-size: .75em;
+    padding: 20px 0;
+}
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.contactMessage {
+    margin: 40px auto 60px;
+    width: 40%;
 }
